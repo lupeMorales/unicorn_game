@@ -4,11 +4,12 @@ export class LmUnicorn extends LitElement {
   static styles = [
     css`
       :host {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border: 1px solid #ccc;
+        display: block;
+        transform: scale(0.3);
+        bottom:-20%;
+        left:-220px;
+        position: absolute;
+      
 
         --white: #e9f1df;
         --hair: #b8e8fc;
@@ -19,13 +20,18 @@ export class LmUnicorn extends LitElement {
         --dark-grey: #404258;
         --light-grey: #b2b2b2;
         --grass: #b1d7b4;
-      }
 
+    
+      }
+   
       .unicorn__container {
+         width: 700px;
+        height: 700px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
+  ∫
       }
       /* HORN */
       .unicorn__horn {
