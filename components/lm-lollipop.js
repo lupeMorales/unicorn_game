@@ -25,6 +25,25 @@ export class LmLollipop extends LitElement {
         height: 50px;
         border-radius: 50%;
         background-color: red;
+        position: relative;
+      }
+      .lip {
+        height: 5px;
+        width: 55px;
+        content: '';
+        position: absolute;
+        background-color: red;
+        left: -2.5px;
+        top: 45%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      .lip div {
+        height: 5px;
+        width: 55px;
+        position: absolute;
+        left: 6px;
+        background: #ac0e62;
+        opacity: 0.1;
       }
       .shadowCaramel {
         position: absolute;
@@ -37,24 +56,6 @@ export class LmLollipop extends LitElement {
         z-index: 2;
       }
 
-      .lip {
-        position: relative;
-        left: 5%;
-        top: 5%;
-        width: 90%;
-        height: 90%;
-        background-color: plum;
-        border-radius: 50%;
-      }
-      .lip2 {
-        position: relative;
-        left: 2.5%;
-        top: 2.5%;
-        width: 95%;
-        height: 95%;
-        background-color: red;
-        border-radius: 50%;
-      }
       .stick {
         width: 4px;
         height: 50px;
@@ -83,39 +84,7 @@ export class LmLollipop extends LitElement {
       <div class="caramel">
         <div class="shadowCaramel"></div>
         <div class="lip">
-          <div class="lip2">
-            <div class="lip">
-              <div class="lip2">
-                <div class="lip">
-                  <div class="lip2">
-                    <div class="lip">
-                      <div class="lip2">
-                        <div class="lip">
-                          <div class="lip2">
-                            <div class="lip">
-                              <div class="lip2">
-                                <div class="lip">
-                                  <div class="lip2">
-                                    <div class="lip">
-                                      <div class="lip2">
-                                        <div class="lip">
-                                          <div class="lip2"></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div></div>
         </div>
       </div>
       <div class="stick">
