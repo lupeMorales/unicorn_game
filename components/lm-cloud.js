@@ -5,24 +5,23 @@ export class LmCloud extends LitElement {
     css`
       :host {
         display: block;
+        transform: scale(0.3);
+        position: fixed;
       }
 
       .cloud-1 {
-        position: fixed;
-        width: 300px;
-        height: 300px;
-        border: 5px solid red;
         animation: parallax 20s linear infinite reverse -15s;
         top: 10%;
       }
       @keyframes parallax {
         from {
-          transform: translateX(-1em);
+          transform: translateX(-55em);
         }
         to {
-          transform: translateX(2300px);
+          transform: translateX(4300px);
         }
       }
+
       .cloud-circle-1 {
         background: #fff;
         border-radius: 50%;
