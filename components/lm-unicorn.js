@@ -25,7 +25,7 @@ export class LmUnicorn extends LitElement {
       }
    
       .unicorn__container {
-         width: 700px;
+        width: 700px;
         height: 700px;
         display: flex;
         justify-content: flex-start;
