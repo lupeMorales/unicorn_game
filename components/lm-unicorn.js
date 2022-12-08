@@ -1,4 +1,4 @@
-import { LitElement, html, css } from "lit";
+import { LitElement, html, css } from 'lit';
 
 export class LmUnicorn extends LitElement {
   static styles = [
@@ -6,10 +6,9 @@ export class LmUnicorn extends LitElement {
       :host {
         display: block;
         transform: scale(0.3);
-        bottom:-20%;
-        left:-220px;
+        bottom: -20%;
+        left: -220px;
         position: absolute;
-      
 
         --white: #e9f1df;
         --hair: #b8e8fc;
@@ -20,10 +19,8 @@ export class LmUnicorn extends LitElement {
         --dark-grey: #404258;
         --light-grey: #b2b2b2;
         --grass: #b1d7b4;
-
-    
       }
-   
+
       .unicorn__container {
         width: 700px;
         height: 700px;
@@ -31,7 +28,6 @@ export class LmUnicorn extends LitElement {
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-  ∫
       }
       /* HORN */
       .unicorn__horn {
@@ -80,7 +76,7 @@ export class LmUnicorn extends LitElement {
         top: 25px;
       }
       .unicorn__nose::after {
-        content: "";
+        content: '';
         width: 8px;
         height: 5px;
         border-radius: 0 0 50px 50px;
@@ -98,7 +94,7 @@ export class LmUnicorn extends LitElement {
         border-radius: 0 0 50px 50px;
       }
       .unicorn__mouth::after {
-        content: "";
+        content: '';
         width: 15px;
         height: 10px;
         background-color: var(--white);
@@ -115,7 +111,7 @@ export class LmUnicorn extends LitElement {
         top: -40px;
       }
       .unicorn__ears::after {
-        content: "";
+        content: '';
         width: 25px;
         height: 40px;
         background-color: var(--light-grey);
@@ -148,7 +144,7 @@ export class LmUnicorn extends LitElement {
         /*  animation: hair 0.5s linear infinite; */
       }
       .unicorn__hair-end::after {
-        content: "";
+        content: '';
         width: 40px;
         height: 50px;
         background-color: var(--hair);
@@ -203,7 +199,7 @@ export class LmUnicorn extends LitElement {
         animation: hair 0.5s linear infinite;
       }
       .unicorn__tail::after {
-        content: "";
+        content: '';
         width: 20px;
         height: 90px;
         background-color: var(--background);
@@ -238,7 +234,7 @@ export class LmUnicorn extends LitElement {
       }
 
       .unicorn__legs::after {
-        content: "";
+        content: '';
         width: 20px;
         height: 80px;
         background-color: var(--light-grey);
@@ -258,7 +254,7 @@ export class LmUnicorn extends LitElement {
       }
 
       .unicorn__legs-back::after {
-        content: "";
+        content: '';
         width: 20px;
         height: 80px;
         background-color: var(--white);
@@ -276,7 +272,7 @@ export class LmUnicorn extends LitElement {
         z-index: 10;
       }
       .unicorn__hoof::after {
-        content: "";
+        content: '';
         width: 25px;
         height: 20px;
         background: #8d72e1;
@@ -294,7 +290,7 @@ export class LmUnicorn extends LitElement {
       }
 
       .unicorn__hoof-back::after {
-        content: "";
+        content: '';
         width: 25px;
         height: 20px;
         background: #b1affb;
@@ -335,4 +331,4 @@ export class LmUnicorn extends LitElement {
   }
 }
 
-customElements.define("lm-unicorn", LmUnicorn);
+customElements.define('lm-unicorn', LmUnicorn);
